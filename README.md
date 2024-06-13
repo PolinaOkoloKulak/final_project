@@ -60,6 +60,7 @@
   ![Alt text](<Снимок экрана 2024-06-13 в 23.57.13.png>)
   
   Correlation Heatmap
+  
   ![Alt text](<Снимок экрана 2024-06-12 в 23.41.43.png>)
 
   According to correlation heatmap, for the model we have chosen area, rooms, renovation and open_plan (even though correlation is not so high, it can be iportant for users).
