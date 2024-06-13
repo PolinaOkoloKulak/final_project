@@ -51,7 +51,8 @@
   The estates with the rent price less than 1000 000 were used, also we delete estate where price per square meter 5 times more house_price_sqm_median. The third line filters out rows where the price per square meter is greater than 3,000 and the house price per square meter is less than 1,000 or equal to the price per square meter. The fourth line filters out rows where the price per square meter is less than 250 and the ratio of the house price per square meter to price per square meter is greater than or equal to 2.The fifth line filters out rows where the price per square meter is less than 200 and the house price per square meter is equal to the price per square meter.
 
 
-  Initial parameters of rent_cleaned_data and added features like last_price_log, price_per_sq_m, house_price_sqm_median
+  Initial parameters of rent_cleaned_data and added features like last_price_log, price_per_sq_m, house_price_sqm_median.
+  
   ![Alt text](<Снимок экрана 2024-06-12 в 23.10.09.png>)
   
   Also missing values were filled with median area for area factors according to grouped estate by address. Renovation was filled with 0. 
